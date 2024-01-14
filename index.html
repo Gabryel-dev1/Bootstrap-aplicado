@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Por aí tur</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <H1 class="navbar-brand m-0 fs-3 font-title">Por aÍ <i class="bi bi-luggage"></i>
+                <span class="fs-6">Turismo</span>
+            </H1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills pt-3 pt-md-0 d-block d-md-flex">
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#sobre-nos">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link " href="#">
+                            <i class="bi bi-geo-alt me-1"></i>
+                            Destinos
+                        </a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link " href="#">
+                            <i class="bi bi-piggy-bank me-1"></i>
+                            Promoções
+                        </a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link " href="#">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre-nos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./img/salvador.jpg" alt="Salvador">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/porto-de-galinhas.jpg" alt="Rio-de-janeiro">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/rio-de-janeiro.jpg" alt="Rio-de-janeiro">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/fernando-de-noronha.jpg" alt="Rio-de-janeiro">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5 sobre-nos-txt">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./img/copacabana.jpg" class="d-block w-100 rounded" alt="copacabana">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="font-title">Sobre <span>nós</span></h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam eum voluptate possimus illo iure deleniti tempora. Tempore officiis exercitationem vitae at reprehenderit quidem iure rerum id optio. Magnam, hic.
+                            </p>
+                            <h3 class="font-title">Nossas <span>politicas</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut perspiciatis quam deleniti cupiditate. Exercitationem ipsa, culpa esse alias obcaecati quod quia mollitia et ipsam vitae blanditiis itaque similique corporis illum!
+                            </p>
+                            <h3 class="font-title">Nossos <span>deveres</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea exercitationem porro nostrum quo consequuntur cumque assumenda quia rerum, delectus obcaecati? Inventore, neque. Libero ullam possimus error cumque iste porro ipsum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

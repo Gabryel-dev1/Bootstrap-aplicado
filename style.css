@@ -1,0 +1,53 @@
+:root {
+    --roxo1: #3901b7;
+    --roxo2: #2b01a5;
+    --roxo3: #1d0193;
+    --roxo4: #0e0080;
+    --roxo5: #00006e;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-title{
+    font-family: 'Lemon', serif;
+}
+
+.sobre-nos-txt span{
+    color: var(--roxo1);
+}
+
+header {
+    border-bottom: 3px solid rgb(22, 0, 63); 
+}
+
+
+.navbar {
+    background-color: var(--roxo1);
+}
+
+.nav .nav-link.active {
+    background-color: #fff;
+    color: var(--roxo1);
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.carousel img {
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+}
+
+#sobre-nos{
+    background-color: #3801b700;
+}

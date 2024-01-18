@@ -10,29 +10,28 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.font-title{
+.font-title, header h1{
     font-family: 'Lemon', serif;
 }
 
-.sobre-nos-txt span{
+.font-title-color{
     color: var(--roxo1);
 }
 
 header {
-    border-bottom: 3px solid rgb(22, 0, 63); 
+    border-bottom: 4px solid rgb(22, 0, 63); 
 }
-
 
 .navbar {
     background-color: var(--roxo1);
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: #fff;
     color: var(--roxo1);
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover {
     color: #fff;
@@ -44,10 +43,15 @@ header {
 
 .carousel img {
     object-fit: cover;
-    height: 600px;
+    height: 400px;
     width: 100%;
 }
 
-#sobre-nos{
-    background-color: #3801b700;
+.nav-destinos .nav-link.active{
+    background-color: var(--roxo1);
+    color: #fff;
+}
+
+.nav-destinos .nav-link.hover{
+    color: var(--roxo1);
 }

@@ -75,7 +75,16 @@ header {
         height: 280px;
     }
 
+    #imgsobre-nos{
+        display: none;
+    }
+
     #contato form button {
-        margin: 2em 2em 2emauto;
+        margin: 1em auto;
+    }
+
+    .carousel-caption h3, 
+    .carousel-caption a {
+        font-size: 18px;
     }
 }
